@@ -10,6 +10,8 @@ import { QaAnswerComponent } from './qa-answer/qa-answer.component';
 import { QaViewComponent } from './qa-view/qa-view.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MessageComponent } from './message/message.component';
+import { UpdateMessageComponent} from './message/update/update.message.component'
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { MessageComponent } from './message/message.component';
     QaAnswerComponent,
     QaViewComponent,
     DashboardComponent,
-    MessageComponent
+    MessageComponent,
+    UpdateMessageComponent,
+
   ],
   imports: [
     BrowserModule,
