@@ -9,6 +9,7 @@ import { QaQuestionComponent } from './qa-question/qa-question.component';
 import { QaAnswerComponent } from './qa-answer/qa-answer.component';
 import { QaViewComponent } from './qa-view/qa-view.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     QaQuestionComponent,
     QaAnswerComponent,
     QaViewComponent,
-    DashboardComponent
+    DashboardComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,63 @@
-<p>
-  qa-answer works!
-</p>
+<div class="form-edit">
+  <div class="row">
+    <div class="col-sm-2">
+      <label for="s_message_type">消息类型</label>
+      <select name="s_message_type" id="s_message_type">
+        <option value="0">广播</option>
+        <option value="1">私信</option>
+        <option value="2">命令</option>
+        <option value="3">推送</option>
+      </select>
+    </div>
+    <div class="col-sm-2">
+      <label for="s_context">文本内容</label>
+      <input class="form-control" type="text" name="s_context" id="s_context">
+    </div>
+    <div class="col-sm-2">
+      <label for=""></label>
+      <input class="form-control" type="text" name="s_target_device" id="s_target_device">
+    </div>
+    <div class="col-sm-6">
+      <label for="s_datetime">时间段</label>
+      <div class="row" id="s_datetime">
+          <input type="datetime" name="s_datetime" id="s_datetime_from">
+          ~
+          <input type="datetime" name="s_datetime" id="s_datetime_to">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-right">
+      <button type="submit" class="btn btn-default">提交</button>
+      <button class="btn btn-success" >查询</button>
+      <button class="btn btn-warning" >新规</button>
+    </div>
+  </div>
+</div>
+<div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <td>type</td>
+        <td>content</td>
+        <td>createTime</td>
+        <td>action</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>私信</td>
+        <td>你好</td>
+        <td>2019-03-05</td>
+        <td>
+          <a href="#">详情</a>
+        </td>
+          
+          
+          
+
+      </tr>
+    </tbody>
+  </table>
+</div>
+ 
